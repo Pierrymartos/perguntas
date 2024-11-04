@@ -1,0 +1,49 @@
+<html>
+	<head>
+	<script>
+	function compute(form){
+	
+	if(prompt("A Resposta correta é...",0)==3){	
+	alert("Parabéns, resposta correta!");
+	window.location.href = "images.jpeg";
+	}
+		else{
+		alert("Resposta errada!");
+		}
+	
+	}
+	</script>	
+	
+	</head>
+	
+	<body>
+	<center>
+	<table border="1" cellpadding="2" width="400"
+	bordercolor="#FF0000" bordercolorlight="#0000FF"
+	bordercolordark="#FF0000">
+	<tr>
+		<td><blockquote>
+		<p align="left"><font face="arial"><strong>
+		<small>Pergunta:</small><br>
+		<small>Em que ano o Messi pegou a ultima bola de ouro?</small><br>
+		<br>
+		<font color="#000080"><small>1 - 2019</small><br>
+		<small>2 - 2000</small><br>
+		<small>3 - 2021</small><br>
+		</blockquote></td>
+	</tr>
+	</table>
+	</center>
+	
+	<form>
+		<div align="center">
+	<input type="button" value="Responda aqui!"
+	onclick="compute(this.form)">	
+		
+		</div>
+	</form>
+	
+	</body>
+
+
+</html>
